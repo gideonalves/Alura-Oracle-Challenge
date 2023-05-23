@@ -1,0 +1,39 @@
+:root {
+    --blue: #0f3397;
+    --green: #006329;
+    --red: #ce001b;
+    --purple: #5e0983;
+    --colorBGGradient: #000000;
+    --bgThemeContainer: rgb(8, 8, 8);
+    --textColor: #f0f0f0;
+    --bgMSG: #161616;
+    --border: 1px solid rgba(223, 223, 223, .1);
+    --bgToggler: rgb(3, 3, 3);
+    --indicatorColor: #d8d8d8;
+    --mainColor: var(--blue);
+    --msgBGImage: url(/src/img/encrypt_lock3.png);
+    --bgSize: 600%;
+}
+
+.light-theme {
+    --bgToggler: rgba(245, 245, 245, .5);
+    --bgThemeContainer: rgb(190, 190, 190);
+    --textColor: #050505;
+    --colorBGGradient: #b8b8b8;
+    --bgMSG: #cecece;
+    --border: 1px solid rgba(0, 0, 0, .3);
+    --bgSize: 200%;
+}
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 150%;
+    font-weight: 400;
+    transition: .3s linear;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}

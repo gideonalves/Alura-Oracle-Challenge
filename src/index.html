@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gideon Alves">  
+
+    <title>Decodificador de texto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Roboto:wght@400;500&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/png" href="../src/img/logo-alura.svg">
+
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body> 
+
+    <header class="header">
+        <img src="../src/img/logo-alura.svg" class="logoAlura" alt="Logo da Alura">
+    </header>
+
+    <svg id="theme-opener" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <path fill="currentColor"
+            d="M24 13.616v-3.232l-2.869-1.02c-.198-.687-.472-1.342-.811-1.955l1.308-2.751-2.285-2.285-2.751 1.307c-.613-.339-1.269-.613-1.955-.811l-1.021-2.869h-3.232l-1.021 2.869c-.686.198-1.342.471-1.955.811l-2.751-1.308-2.285 2.285 1.308 2.752c-.339.613-.614 1.268-.811 1.955l-2.869 1.02v3.232l2.869 1.02c.197.687.472 1.342.811 1.955l-1.308 2.751 2.285 2.286 2.751-1.308c.613.339 1.269.613 1.955.811l1.021 2.869h3.232l1.021-2.869c.687-.198 1.342-.472 1.955-.811l2.751 1.308 2.285-2.286-1.308-2.751c.339-.613.613-1.268.811-1.955l2.869-1.02zm-12 2.384c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4z" />
+    </svg>
+
+    <div class="themes-container">
+        <svg id="theme-closer" width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <g id="Edit / Close_Circle">
+                <path stroke="currentColor" id="Vector"
+                    d="M9 9L11.9999 11.9999M11.9999 11.9999L14.9999 14.9999M11.9999 11.9999L9 14.9999M11.9999 11.9999L14.9999 9M12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21Z"
+                    stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </g>
+        </svg>
+
+        <h3> Selecione o tema </h3>
+
+
+        <div class="theme-toggler">
+            <span>Escuro</span>
+            <div class="toggler">
+                <div id="indicator"></div>
+            </div>
+            <span>Claro</span>
+        </div>
+
+        <h3> Selecione uma cor </h3>
+
+        <div class="theme-btn-container">
+            <span class="color-btn" data-color="#0f3397" style="background: #0f3397;"></span>
+            <span class="color-btn" data-color="#006329" style="background: #006329;"></span>
+            <span class="color-btn" data-color="#ce001b" style="background: #ce001b;"></span>
+            <span class="color-btn" data-color=#5e0983 style="background: #5e0983;"></span>
+        </div>
+    </div>
+
+
+
+    <main>
+        <h1 class="title">
+            Codificador de texto
+        </h1>
+        <div class="content">
+            <div class="txt-container">
+                <textarea class="text-area" placeholder="Digite sua mensagem..." cols="50" rows="20"></textarea>
+
+                <div class="info">
+                    <img src="./src/img/warning.png" class="warning-icon" alt="" srcset="">
+                    </svg>
+
+                    <p id="warning">Não use acentos nem caracteres especiais</p>
+                </div>
+
+                <div class="btn-container">
+                    <button class="btn-encoder">Criptografrar</button>
+                    <button class="btn-decoder">Descriptografar</button>
+                </div>
+            </div>
+
+            <div class="msg-container">
+                <textarea readonly id='msg' class="msg" cols="20" rows="10"></textarea>
+                <button class="btn-copy">Copiar</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
