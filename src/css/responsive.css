@@ -1,0 +1,456 @@
+@media (max-width: 1920px){    
+
+   body{
+        height: auto;
+    }
+
+    .title{
+        font-size: 2.8rem;
+        margin: 10px auto;
+    }
+   
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+    }
+      
+
+    .content {
+        margin-top: 3rem;
+    }
+
+   
+    .text-area{
+        height: 500px;
+        font-size: 2.5rem;
+        width: 800px;      
+    }
+
+    .msg{
+        height: 500px;
+        width: 750px;
+    }
+
+    .content {
+        padding: 0 20px;
+        gap: 10px;
+    }
+   
+}
+
+
+/* ***************************** */
+/* ----------------------------- */
+/* ***************************** */
+
+@media (max-width: 1440px){   
+
+    main{
+        padding: 0 20px;
+    }    
+
+     .content{
+        justify-content: space-between;
+        gap: 10px
+     }
+
+     .msg-container,
+    .txt-container{
+        gap: 50px;
+    }
+
+    .text-area{
+        height: 300px;
+        font-size: 2rem;
+        width: 520px;   
+        border: 2px    
+    }
+
+    .info{
+        bottom: 70px;
+        font-size: 1.4rem;
+    }
+ 
+     .msg{
+         height: 300px;
+         width: 450px;
+         font-size: 2rem;
+     }
+     
+     .title{
+        font-size: 2rem;
+     }
+
+
+     button{
+        font-size: 1.6rem;
+        height: 60px;
+        width: 180px;
+        padding: 0px;
+        border-radius: 15px;
+    }
+     
+    
+ }
+ 
+ 
+ /* ***************************** */
+ /* ----------------------------- */
+ /* ***************************** */
+
+
+@media (max-width: 1280px){    
+   
+    .text-area, .msg{
+        height: 350px;
+        font-size: 2rem;
+        width: 550px;
+        border: 3px 
+    }
+
+    .btn-container {
+        gap: 15px;
+    }
+
+    .msg-container,
+    .txt-container{
+        gap: 50px;
+    }
+
+    #theme-opener{
+        position: absolute;
+        height: 4rem;
+        top: 20px;
+    }   
+   
+}
+
+
+/* ***************************** */
+/* ----------------------------- */
+/* ***************************** */
+
+
+
+
+
+
+
+@media (max-width: 1110px) {
+    .title{
+        display: none;
+    }   
+  
+
+    .logoAlura {
+        margin-left: 20px;
+        height: 2.5rem;
+    }
+
+    header{
+        height: 50px;
+    }
+   
+
+    .content {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;  
+        justify-content: center;   
+        gap: 80px;   
+        align-items: center;
+    }
+
+    .txt-container,
+    .msg-container{
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        gap: 20px;                
+    }
+
+
+    .text-area, .msg{
+        height: 550px;
+        font-size: 2rem;
+        width: 650px;
+    }
+
+    #theme-opener{
+        position: absolute;
+        height: 3rem;
+        right: 50px;
+        top: 10px;
+    }
+
+    .info{
+        position: static;
+        justify-content: center;
+        align-items: center;           
+    }
+}
+
+
+/* ***************************** */
+/* ----------------------------- */
+/* ***************************** */
+
+
+
+@media (max-width: 1024px){
+
+    html{
+        height: 250vh;
+    }
+    
+
+    .content {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;  
+        justify-content: center;   
+        gap: 80px;   
+        align-items: center;
+    }
+
+
+    .txt-container,
+    .msg-container{
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        gap: 20px;             
+    }
+
+
+    .txt-container{
+        width: auto;
+    }   
+
+    
+    .text-area, .msg{
+        height: 450px;
+        font-size: 2rem;
+        width: 600px;
+    }
+}
+
+
+/* ***************************** */
+/* ----------------------------- */
+/* ***************************** */
+
+
+
+@media (max-width: 912px){
+
+    body{
+        height: 110vh;
+    }
+}
+
+
+/* ***************************** */
+/* ----------------------------- */
+/* ***************************** */
+
+
+@media (max-width: 768px){
+
+    body{
+        height: 100%;
+    }
+}
+
+
+/* ***************************** */
+/* ----------------------------- */
+/* ***************************** */
+
+
+
+
+@media (max-width: 700px){
+
+    
+    html{
+        height: auto;
+    }
+
+   
+
+    body{
+        height: 200vw;
+    }
+
+    #theme-opener{
+        top: 2%;
+        left: 85%;
+        position: absolute;
+    }
+
+  
+       
+    header{
+        height: 50px;
+        width: 100%;
+    }
+
+    #theme-opener{
+        top: 10px;
+        left: 90%;
+        height: 3rem;
+        right: -120%;
+        position: absolute;
+    }
+    
+
+
+    .txt-container,
+    .msg-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;                
+    }
+
+    button{
+        font-size: 1.4rem;
+        height: 40px;
+        width: 120px;
+    }
+
+
+    .text-area, .msg{
+        height: 350px;
+        font-size: 2rem;
+        width: 500px;
+    }
+}
+
+
+/* ***************************** */
+/* ----------------------------- */
+/* ***************************** */
+
+
+
+@media (max-width: 500px){
+
+
+    
+   
+
+    body{
+        height: auto;
+        width: auto;           
+    }    
+    
+
+    .logoAlura {
+        margin-left: 20px;
+        height: 3rem;
+    }
+
+   
+     
+
+    #theme-opener{
+        position: absolute;
+        height: 3rem;
+        top: 10px;        
+        left: 85%;
+        
+    }   
+
+   
+
+
+
+    .text-area, .msg{
+        width: 300px;
+        height: 350px;
+        font-size: 2rem;
+        width: 250px;
+    }
+    
+}
+
+
+/* ***************************** */
+/* ----------------------------- */
+/* ***************************** */
+
+
+
+
+@media (max-width: 390px){
+
+
+    .themes-container{
+        width: 220px;
+        height: 100vh;
+    }
+
+    .content{
+        padding: auto 0;
+        width: auto;
+    }
+   
+
+    #theme-opener{
+        top: 10px;
+        left: 85%;
+        height: 3rem;
+        position: absolute;
+    }       
+
+    .text-area, .msg{
+        height: 350px;
+        font-size: 2rem;
+        width: 250px;
+    }    
+}
+
+
+/* ***************************** */
+/* ----------------------------- */
+/* ***************************** */
+
+
+
+@media (max-width: 280px){
+
+    header{
+        width: 110vw;
+    }
+
+    .info{
+        text-align: center;
+    }
+   
+   
+
+    #theme-opener{
+        top: 10px;
+        left: 90%;
+        height: 3rem;
+        position: absolute;
+    }
+
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+

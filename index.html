@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Gideon Alves">  
+    <meta name="author" content="Annie Alves">  
+
 
     <title>Decodificador de texto</title>
 
@@ -13,21 +15,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Roboto:wght@400;500&family=Ubuntu&display=swap"
         rel="stylesheet">
 
-    <link rel="shortcut icon" type="image/png" href="../src/img/logo-alura.svg">
+    <link rel="shortcut icon" type="image/png" href="./src/img/logo-alura.svg">
 
-
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
-<body> 
 
+<body>
     <header class="header">
-        <img src="../src/img/logo-alura.svg" class="logoAlura" alt="Logo da Alura">
+        <img src="./src/img/logo-alura.svg" class="logoAlura" alt="Logo da Alura">
     </header>
+
 
     <svg id="theme-opener" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
         <path fill="currentColor"
             d="M24 13.616v-3.232l-2.869-1.02c-.198-.687-.472-1.342-.811-1.955l1.308-2.751-2.285-2.285-2.751 1.307c-.613-.339-1.269-.613-1.955-.811l-1.021-2.869h-3.232l-1.021 2.869c-.686.198-1.342.471-1.955.811l-2.751-1.308-2.285 2.285 1.308 2.752c-.339.613-.614 1.268-.811 1.955l-2.869 1.02v3.232l2.869 1.02c.197.687.472 1.342.811 1.955l-1.308 2.751 2.285 2.286 2.751-1.308c.613.339 1.269.613 1.955.811l1.021 2.869h3.232l1.021-2.869c.687-.198 1.342-.472 1.955-.811l2.751 1.308 2.285-2.286-1.308-2.751c.339-.613.613-1.268.811-1.955l2.869-1.02zm-12 2.384c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4z" />
     </svg>
+
+
 
     <div class="themes-container">
         <svg id="theme-closer" width="800px" height="800px" viewBox="0 0 24 24" fill="none"
@@ -60,8 +66,6 @@
         </div>
     </div>
 
-
-
     <main>
         <h1 class="title">
             Codificador de texto
@@ -89,5 +93,10 @@
             </div>
         </div>
     </main>
+
+    <script src="./src/js/theme.js"></script>
+    <script src="./src/js/encrypter.js"></script>
+
 </body>
+
 </html>
